@@ -25,13 +25,6 @@ python3 -m http.server 8000
 
 としてから `http://localhost:8000` を開いてください。
 
-## GitHub Pagesでの公開方法
-
-1. このフォルダの中身をGitHubリポジトリのルート(または `docs/` フォルダ)にpushする
-2. リポジトリの **Settings → Pages** を開く
-3. **Source** で `Deploy from a branch` を選び、対象ブランチとフォルダ(`/ (root)` または `/docs`)を指定して保存
-4. しばらくすると `https://<ユーザー名>.github.io/<リポジトリ名>/` で公開される
-
 ## 内容の更新
 
 語彙・文法情報は2026-07-20時点の辞書スナップショットに基づいています。
